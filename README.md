@@ -28,14 +28,7 @@ ____,____,____,___
 Then I used Wget to programatically get only the specific videos I needed from the dataset the ffmeg to split into individual 5 second clips.
 
 This left me with a file structure looking like so:
-BSL Data\
-          Sign 1\
-                  ____
-                  ____
-          Sign 2\
-                  ____
-                  ____
-                  ect
+BSL Data\(Sign 1\____,____),(Sign 2\____,____)
 The final dataset was then created by a python script which I have included called Dataset_creation.py which shows every video in every folder as seen above being passed through both mediapipe models and then stored in a large dataset file creating the final dataset to be passed into the model.
 
 Prototype model:
