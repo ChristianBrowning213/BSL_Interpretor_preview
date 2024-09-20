@@ -57,7 +57,7 @@ layers.Dense(64, activation='relu'),
 layers.Dense(23, activation='softmax')  
 ])
 
-This model was effective getting a test accuracy of 0.75. This code can be found in "Model_Creation.py".
+This model was effective getting a test accuracy of 0.75. This code can be found in "Prototype_Creation.py".
 
 New model:
 
